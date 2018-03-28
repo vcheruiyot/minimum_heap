@@ -148,17 +148,13 @@ void print_minimum(min_heap *heap){
 void run_query(min_heap *heap, int type, int data){
 	switch(type){
 		case 1:
-			push(heap, &data);
 			print_heap(heap);
 			break;
 		case 2:
-			print_heap(heap);
 			heap_remove(heap, &data);
-			print_heap(heap);
 			break;
 		case 3:
 			print_minimum(heap);
-			print_heap(heap);
 			break;
 	}
 }
