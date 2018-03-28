@@ -1,1 +1,1 @@
-# minimum_heap
+# minimum_heap implementation by Victor Cheruiyot
